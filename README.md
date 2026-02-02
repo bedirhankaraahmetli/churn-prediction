@@ -17,7 +17,7 @@ Customer retention is a critical metric for subscription-based businesses. The p
 ## 🗂 Project Structure
 The project follows the Cookiecutter Data Science standard:
 
-
+```text
 ├── data
 │   ├── raw            # Original, immutable data dump
 │   └── processed      # The final, canonical data sets for modeling
@@ -25,6 +25,7 @@ The project follows the Cookiecutter Data Science standard:
 ├── src                # Source code for use in this project
 ├── models             # Trained and serialized models
 └── README.md          # The top-level README for developers using this project
+```
 
 ## 🚀 Installation & Usage
 Clone the repository:
