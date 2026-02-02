@@ -17,7 +17,7 @@ Customer retention is a critical metric for subscription-based businesses. The p
 ## 🗂 Project Structure
 The project follows the Cookiecutter Data Science standard:
 
-```text
+
 ├── data
 │   ├── raw            # Original, immutable data dump
 │   └── processed      # The final, canonical data sets for modeling
@@ -29,24 +29,32 @@ The project follows the Cookiecutter Data Science standard:
 ## 🚀 Installation & Usage
 Clone the repository:
 
-Bash
-git clone [https://github.com/bedirhankaraahmetli/churn-prediction.git](https://github.com/YOUR_USERNAME/churn-prediction.git)
+```Bash
+git clone [https://github.com/bedirhankaraahmetli/churn-prediction.git](https://github.com/bedirhankaraahmetli/churn-prediction.git)
+
 cd churn-prediction
+```
+
 Create a virtual environment:
 
-Bash
-# Windows
+```Bash
+## Windows
 python -m venv .venv
 .\.venv\Scripts\activate
 
-# Mac/Linux
+## Mac/Linux
 python3 -m venv .venv
 source .venv/bin/activate
+```
+
 Install dependencies:
 
-Bash
+```Bash
 pip install -r requirements.txt
-📈 Roadmap
+
+```
+
+## 📈 Roadmap
 [x] Project Setup & Data Loading
 
 [ ] Phase 1 (Beginner): Exploratory Data Analysis (EDA) & Baseline Logistic Regression Model
